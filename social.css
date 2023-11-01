@@ -1,4 +1,15 @@
+header {
+    background-color: black;
+    color:white;
+    padding: 10px 0;
+    max-width:110%;
+}
+
 nav li {
     display:inline;
     margin-right:20px;
+}
+.search {
+    text-align: center;
+    display:inline;
 }
