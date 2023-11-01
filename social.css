@@ -13,3 +13,14 @@ nav li {
     text-align: center;
     display:inline;
 }
+
+.profile{
+    border-radius: 50%;
+    width: 90px;
+}
+.left_panel{
+    width:23%;
+    height:100%;
+    text-align: center;
+    border : solid;
+}
