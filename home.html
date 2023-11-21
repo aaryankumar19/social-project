@@ -9,26 +9,56 @@
     <body>
         <header>
             <nav>
-                <li>
-                    <ul class="navbar">
-                        <li><a href=home.html>Home</a></li>
-                        <li><a href=explore.html>Explore</a></li>
-                        <li><a href=posts.html>Profile</a></li>
-                        <li><a href=messages.html>Messages</a></li>
-                        <li><div class="search">
-                            <label><input type="text" placeholder="search"></label>
-                        </div></li>
-                        <li id="logout-button"><a href=logout.html>LogOut</a></li>
-                    </ul>
-                </li>
+                <div><a href="home.html">Home</a></div>
+                <div><a href="profile.html">Profile</a></div>
+                <div><a href="messages.html">Messages</a></div>
+                <div><a href="explore.html">Explore</a></div>
+                <div class="search">
+                    <label><input type="text" placeholder="search"></label>
+                </div>
+                <div class="logout-button"><a href=logout.html>LogOut</a></div>
             
             </nav>
         </header>
         <section class="left_panel">
-            <div>
-                <img src="https://i.pinimg.com/564x/ed/2c/d7/ed2cd78af55a2cfb0545165faec99367.jpg" class="profile">
-                <p>Username</p>
+            <div id="profile">
+                <img src="cover.jpg" class="cover">
+                <img src="https://i.pinimg.com/564x/ed/2c/d7/ed2cd78af55a2cfb0545165faec99367.jpg" class="dp">
+                <p id="username">@aaryansharma</p>
+                <P id="bio">CEO of Uncharted Realities</P>
+                
+            </div>
+            <div class="followers">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Posts</th>
+                            <th>followers</th>
+                            <th>following</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>12</td>
+                            <td>15.7k</td>
+                            <td>69</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="buttons">
+            <button class="edit_button">Edit Profile</button>
+            <button class="edit_button">Add Posts</button>
             </div>
         </section>
-    </body>
+        
+        <section class="left_panel" id="left2">
+            <div class="left21">
+                <p id="message">Messages</p>
+
+                <hr>
+
+            </div>
+        </section>
+    </body>        
 </html>
