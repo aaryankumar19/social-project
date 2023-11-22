@@ -72,3 +72,26 @@ input[type="text"] {
 button:hover {
     background-color: #45a049;
 }
+
+.messages{
+    height:18%;
+    width:98%;
+    margin:5px 2px 8px 2px;
+    border:0.5px solid grey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.messages:hover{
+    background-color:lightgrey;
+}
+
+.messages img{
+    width:45px;
+    height:45px;
+    margin-top:4px;
+    float: left;
+    margin-left:4px;
+    border-radius:50%;
+    border:solid 1px;
+}
