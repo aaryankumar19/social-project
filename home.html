@@ -13,8 +13,10 @@
                 <div><a href="profile.html">Profile</a></div>
                 <div><a href="messages.html">Messages</a></div>
                 <div><a href="explore.html">Explore</a></div>
-                <div class="search">
-                    <label><input type="text" placeholder="search"></label>
+                <div class="search-bar">
+                    <input type="text" placeholder="Search...">
+                    <button class=search-button type="submit">Search</button>
+                </div>
                 </div>
                 <div class="logout-button"><a href=logout.html>LogOut</a></div>
             
@@ -51,14 +53,14 @@
             <button class="edit_button">Add Posts</button>
             </div>
         </section>
-        
         <section class="left_panel" id="left2">
             <div class="left21">
-                <p id="message">Messages</p>
-
-                <hr>
-
+                <p id="message-top">Messages</p>
+                <hr style="height: 2px;background: grey;">
+                <div class="messages">
+                </div>
             </div>
+
         </section>
     </body>        
 </html>
