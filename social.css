@@ -22,15 +22,11 @@
     background-color:rgb(196, 4, 4)
 }
 
-.navbar a{
-    color:white;
-    text-decoration: none;
-}
-
 .search-bar {
     margin-top: 10px;
     display: flex;
     width:40px;
+    margin-left:45%
 }
 
 input[type="text"] {
@@ -38,7 +34,7 @@ input[type="text"] {
     padding: 8px;
     font-size: 16px;
     border-radius:10px 0 0 10px;
-    border:none
+    border:none;
 }
 
 .search-button {
