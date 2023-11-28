@@ -1,22 +1,5 @@
 *{margin:0}
 
-header {
-    background-color: black;
-    color:white;
-    padding: 10px 0;
-    max-width:110%;
-}
-
-nav{
-    display:flex;
-}
-
-nav div{
-    margin-right: 10px;
-    margin-left:10px
-}
-
-
 .search {
     text-align: center;
     display: inline;
@@ -29,7 +12,7 @@ nav div{
     height:40%;
     text-align: center;
     border : solid 0.5px grey;
-    margin-top:5px;
+    margin-top:18px;
     margin-left:8px;
     border-radius: 10px;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -47,8 +30,7 @@ nav div{
 .search-bar {
     margin-top: 10px;
     display: flex;
-    max-width: 400px;
-    margin: 0 auto 0 auto;
+    width:40px;
 }
 
 input[type="text"] {
@@ -60,8 +42,7 @@ input[type="text"] {
 }
 
 .search-button {
-    padding: 8px;
-    background-color: #4CAF50;
+    background-color: black;
     color: white;
     border: none;
     cursor: pointer;
@@ -103,4 +84,23 @@ button:hover {
     margin-top:-40.9%;
     border-radius:10px;
     border: black 2px solid;
+}
+
+.navbar{
+    overflow: hidden;
+    background-color: #333;
+    margin:0;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #f3f3f3;
+    color:black;
 }

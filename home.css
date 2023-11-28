@@ -1,4 +1,5 @@
 .logout-button {
+    width:60px;
     padding: 5px 10px;
     font-size: 16px;
     font-weight: bold;
@@ -9,6 +10,8 @@
     border: 0px;
     border-radius: 5px;
     transition: background-color 0.3s;
+    margin-left:94%;
+    margin-top:-40px;
   }
 
 .logout-button:hover {
