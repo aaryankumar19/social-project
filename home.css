@@ -30,7 +30,8 @@ nav div a{
 }
 
 #left2 {
-  margin-top:15px;
+  margin-top:330px;
+  margin-left:-305px;
 }
 
 .left21{
@@ -98,4 +99,9 @@ nav div a{
 
 .buttons{
   display:flex;
+}
+
+header{
+  position:sticky;
+  top:0;
 }

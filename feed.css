@@ -5,8 +5,11 @@
 .border{
     width:40%;
     border-left: solid 2px black;
-    margin-left: 30%;
-    margin-top: 40px;
+    margin-left: 25%;
+    margin-top: 20px;
+    padding-left:5%;
+    padding-right:5%;
+    border-right: solid 2px black;
 
 }
 
@@ -28,7 +31,7 @@
     width:100%;
     max-height: 600px;
     margin-top:0;
-    object-position: cover;
+    object-fit: cover;
     border-bottom:0.5px solid grey;
 }
 
@@ -56,7 +59,7 @@
 }
 .interact img{
     width:35px;
-    margin:5px 10px 5px 10px;;
+    margin:9px 10px 5px 10px;;
 }
 
 .single-post{
@@ -64,4 +67,9 @@
     margin-bottom: 40px;
     border:1px solid black;
     border-radius: 10px;
+}
+
+.single-post a{
+    text-decoration: none;
+    color:black;
 }

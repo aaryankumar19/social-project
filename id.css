@@ -1,0 +1,128 @@
+*{
+    margin:0;
+  }
+  .navbar{
+      overflow: hidden;
+      background-color: #333;
+      margin:0 
+  }
+  .navbar a {
+      float: left;
+      display: block;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+  }
+  
+  .navbar a:hover {
+      background-color: #f3f3f3;
+      color:black;
+  }
+  
+  .id-pic{display:flex;}
+  
+  .id-pic img{
+      height:150px;
+      width:150px;
+      border-radius: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      border:1px solid black;
+      text-align:center;
+  }
+  
+  .id-top{
+      margin:3% 0 3% 0;
+  }
+  
+  .id-name{
+      text-align:center;
+      font-size: 32px;
+      font-weight: bold;
+  }
+  
+  .hr{
+      width:80%;
+      margin-left: auto;
+      margin-right:auto;
+  }
+  
+  .posts{
+      width:90%;
+      margin-left: auto;
+      margin-right: auto;
+      display:flex;
+      flex-direction: row;
+      flex-wrap:wrap;
+      justify-content: space-around;
+  }
+  
+  .posts img{
+      margin-bottom: 40px;
+  }
+  
+  .posts img:hover{
+      cursor:pointer;
+  }
+  
+  .posts img{
+      width: 400px; 
+      height: 400px; 
+      object-fit: cover;
+      object-position: 25% 25%; 
+      }
+  
+  .posts img:hover{
+      color:black;
+  }
+  .followers table{
+      text-align:center;
+      width:22%;
+      margin-top:20px;
+      margin-left:39.6%;
+      margin-right:38.4%;
+      font-size:20;
+      margin-bottom:30px;
+    }
+  
+    .followers table:hover{
+      cursor: pointer;
+    }
+  
+    .follow-button{
+      width:10%;
+      font-weight:bold;
+      padding: 7px 0 7px 0;
+      font-size: 80%;
+      border:black solid 2px;
+      border-radius:20px;
+      cursor:pointer;
+      background-color: black;
+      color:white;
+      transition: background-color 0.2s;
+      margin-left:10px;
+    }
+    .follow-button:hover{
+      background-color: grey;
+      color:white;
+    }
+    .message-button{
+      width:10%;
+      font-weight:bold;
+      padding: 7px 0 7px 0;
+      font-size: 80%;
+      border:black solid 2px;
+      border-radius:20px;
+      cursor:pointer;
+      transition: background-color 0.3s;
+      margin-left:10px;
+    }
+    .message-button:hover{
+      background-color: black;
+      color:white;
+    }
+    .follow-message{
+      text-align:center;
+      margin-top:20px;
+    }
