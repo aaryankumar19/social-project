@@ -99,8 +99,8 @@ button:hover {
 .feed{
     height:100%;
     width:50%;
-    background-color:red;
     margin-left:21.5%;
     margin-top:-40.9%;
     border-radius:10px;
+    border: black 2px solid;
 }
