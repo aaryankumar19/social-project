@@ -5,6 +5,9 @@
     display: inline;
 }
 
+body{
+    background-color:whitesmoke
+}
 
 .left_panel{
     float:left;
@@ -12,44 +15,141 @@
     width:20%;
     height:40%;
     text-align: center;
-    border : solid 0.5px grey;
+    border : solid 3px black;
     margin-top:18px;
     margin-left:8px;
-    border-radius: 10px;
+    border-radius: 12px;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-#logout {
-    text-align:right;
-    background-color:rgb(196, 4, 4)
-}
 
-.search-bar {
-    margin-top: 10px;
-    display: flex;
-    width:40px;
-    margin-left:45%
-}
-
-input[type="text"] {
-    flex: 1;
-    padding: 8px;
-    font-size: 16px;
-    border-radius:10px 0 0 10px;
-    border:none;
-}
-
-.search-button {
+#left2 {
+    margin-top:330px;
+    margin-left:-309px;
+  }
+  
+  .left21{
+    height:30px;
+    background-color: white;
+    border-radius:9px 9px 0 0;
+    margin-bottom:px;
+  }
+  
+  #message-top{
+    padding-top:5px;
+    padding-bottom: 5px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Montserrat;
+  }
+  
+  .cover {
+    width:100%;
+    height: 30%;
+    border-radius: 9px 9px 0 0;
+  }
+  .dp{
+    border-radius: 50%;
+    border:4px solid white;
+    width: 27%;
+    margin-top:-43px;
+  }
+  
+  #username {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  #bio{
+    font-family: roboto;
+    margin-top:5px;
+    margin-bottom: 5px
+  }
+  
+  .edit_button{
+    width:40%;
+    font-weight:bold;
+    padding: 5px 0 5px 0;
+    font-size: 80%;
+    border:black solid 2px;
+    border-radius:6px;
+    cursor:pointer;
+    transition: background-color 0.2s;
+    margin-top:10px;
+    margin-right:10px;
+  }
+  .edit_button:hover{
     background-color: black;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius:0 7px 7px 0;
-}
+    color:white;
+    border-color: white;
+  }
+  
+  .followers table{
+    text-align:center;
+    width:80%;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  
+  .buttons{
+    display:flex;
+  }
+  
 
-button:hover {
-    background-color: #45a049;
-}
+  *{
+    margin:0;
+  }
+  .right-panel{
+    width:20%;
+    float:right;
+    height:45.7%;
+    border:3px solid black;
+    border-radius:10px;
+    margin-top:20px;
+    margin-right:15px;
+  }
+  
+  .right-1{
+    background-color:white;
+    border-radius:7px 7px 0 0;
+    padding-bottom: 2px;
+  }
+  .right-1 p{
+    text-align: center;
+    padding-top:6px;
+    margin-bottom:6px;
+    font-weight: bolder;
+    font-size: larger;
+    font-family: Montserrat;
+  }
+  
+  .s-name img{
+    width:45px;
+    height:45px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left;
+    margin:7px;
+    margin-top:-6px;
+  }
+  
+  .s-name p{
+    margin-top:12px;
+    font-weight: bold;
+  }
+  
+  .s-name button{
+    width:25%;
+    background-color:navy;
+    color:white;
+    border-radius: 7px;
+    padding-top:5px;
+    float: right;
+    margin-top:-20px;
+    margin-right:10px;
+  }
+
+
 
 .messages{
     height:18%;
@@ -58,6 +158,7 @@ button:hover {
     border:0.5px solid grey;
     border-radius: 10px;
     cursor: pointer;
+    background-color:whitesmoke
 }
 
 .messages:hover{
@@ -74,24 +175,37 @@ button:hover {
     border:solid 1px;
 }
 
-
-
-.navbar{
-    overflow: hidden;
-    background-color: #333;
-    margin:0;
+.switch{
+  width:40%;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top:15px;
 }
-.navbar a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.following{
+  width:49%;
+  height:30px;
+  border-radius:30px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
-.navbar a:hover {
-    background-color: #f3f3f3;
-    color:black;
+.following:hover{
+  cursor:pointer;
+  background-color: grey;
+  color:white;
 }
 
+.global{
+  width:49%;
+  height:30px;
+  border-radius:30px;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left:5px;
+}
+
+.global:hover{
+  cursor:pointer;
+  background-color: grey;
+  color:white;
+}
